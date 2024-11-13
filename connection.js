@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const uri = 'mongodb://admin:admin@localhost:27017/pruebaxd?authSource=admin';
+const uri = 'mongodb://localhost:27017/pruebaxd';
 const db = mongoose.connection;
 
 // Conectar a MongoDB con las opciones adecuadas
